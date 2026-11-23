@@ -1,0 +1,9 @@
+# DocCaptionNet inference config
+project: DocCaptionNet
+model_id: Salesforce/blip-image-captioning-base
+checkpoint: ""
+device: auto
+max_new_tokens: 32
+num_beams: 1
+history_path: outputs/history.jsonl
+include_document_name: true

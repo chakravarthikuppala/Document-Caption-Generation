@@ -1,0 +1,12 @@
+# DocCaptionNet training config
+project: DocCaptionNet
+model_id: Salesforce/blip-image-captioning-base
+output_dir: models/DocCaptionNet_finetuned
+train_csv: data/processed/DocCaptionNet_train.csv
+val_csv: data/processed/DocCaptionNet_val.csv
+epochs: 3
+batch_size: 2
+learning_rate: 5.0e-5
+max_target_length: 64
+include_document_name: true
+seed: 42

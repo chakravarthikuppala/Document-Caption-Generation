@@ -1,0 +1,20 @@
+# DocCaptionNet
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "doccaptionnet"
+version = "1.0.0"
+description = "DocCaptionNet — deep-learning document caption generation with Streamlit and FastAPI"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "DocCaptionNet" }]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,4 @@
+image_path,caption
+data/raw/DocCaptionNet_invoice.png,an invoice listing line items and a payment total
+data/raw/DocCaptionNet_letter.png,a formal letter on letterhead
+data/raw/DocCaptionNet_report.png,a quarterly business report with a summary heading
