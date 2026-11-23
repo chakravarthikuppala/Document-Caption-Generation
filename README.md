@@ -14,7 +14,7 @@ DocCaptionNet generates unique, traceable captions for every page of PDFs and sc
 ## Quick start (Windows)
 
 ```powershell
-cd C:\Users\mokak\DocCaptionNet
+cd C:\Users\chaki\DocCaptionNet
 python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
